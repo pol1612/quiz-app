@@ -1,6 +1,15 @@
 import { useState } from 'react'
 import { quizQuestions_1 } from './data/quizQuestions-1'
 import { quizQuestions_2 } from './data/quizQuestions-2'
+import { quizQuestions_3 } from './data/quizQuestions-3'
+import { quizQuestions_4 } from './data/quizQuestions-4'
+import { quizQuestions_5 } from './data/quizQuestions-5'
+import { quizQuestions_6 } from './data/quizQuestions-6'
+import { quizQuestions_7 } from './data/quizQuestions-7'
+import { quizQuestions_8 } from './data/quizQuestions-8'
+import { quizQuestions_9 } from './data/quizQuestions-9'
+import { quizQuestions_10 } from './data/quizQuestions-10'
+
 import Header from './Header';
 import Footer from './Footer';
 
@@ -21,13 +30,45 @@ const Quiz = () => {
       wrongAnswers: 0,
     })
 
-
     let questions; 
 
     if (quizId === '1') {
         questions = quizQuestions_1.questions; 
-    } else if (quizId === '2') {
+    } 
+    else if (quizId === '2') {
         questions = quizQuestions_2.questions; 
+    }
+
+    else if (quizId === '3') {
+      questions = quizQuestions_3.questions; 
+    }
+  
+    else if (quizId === '4') {
+      questions = quizQuestions_4.questions; 
+    }
+
+    else if (quizId === '5') {
+      questions = quizQuestions_5.questions; 
+    }
+
+    else if (quizId === '6') {
+      questions = quizQuestions_6.questions; 
+    }
+
+    else if (quizId === '7') {
+      questions = quizQuestions_7.questions; 
+    }
+    
+    else if (quizId === '8') {
+      questions = quizQuestions_8.questions; 
+    }
+
+    else if (quizId === '9') {
+      questions = quizQuestions_9.questions; 
+    }
+
+    else if (quizId === '10') {
+      questions = quizQuestions_10.questions; 
     }
     
     const { question, choices, correctAnswer } = questions[activeQuestion]
