@@ -251,10 +251,7 @@ img { width: 100%; height: auto }
 }
 
 /* Global font */
-body { 
-  font-family: var(--global-font);
-  background: var(--trend-800);
-}
+body { font-family: var(--global-font) }
 
 /* Content containers */
 nav, header, section, figure, footer { position: relative; display: block }
@@ -280,85 +277,3 @@ section > * { max-width: 1600px }
 
 /* When content width < viewport width, equalise spacing at left and right */
 section > * { max-width: 1600px; margin-left: auto; margin-right: auto }
-
-section.home-section { padding: 20px 14%  }
-section.home-section h2 { 
-  color: #fff;
-  font-size: var(--font-size-md);
-  font-weight: 400;
-  margin-bottom: 34px;
-  margin-top: 12px;
-  text-align: center;
-}
-
-
-section.home-section .two-cols { display: flex; flex-wrap: wrap }
-
-section.home-section .two-cols > * { flex: 1; }
-
-section.home-section p { 
-  color: #fff;
-  font-size: var(--font-size-base);
-  font-weight: 400;
-  margin-bottom: 20px
-}
-
-section.home-section p b { 
-  display: inline-block;
-  color: #fff;
-  padding: 1px 10px;
-  background-color: var(--trend-900);
-  font-size: var(--font-size-base);
-  font-weight: 700;
-  margin-bottom: 20px;
-  font-size: calc(var(--font-size-base) * 0.8);
-}
-
-section.home-section p a:link, section.home-section p a:visited { 
-  color: var(--blue-300);
-  text-decoration: none;
-  border-bottom: solid 1px var(--blue-400);
-  transition: all 0.2s ease-in-out;
-  display: inline-block;
-  margin-left: 12px
-}
-
-section.home-section p a:hover, section.home-section p a:active { 
-  color: var(--blue-400);
-  border-bottom-color: red;
-}
-
-.header { 
-  display: block;
-  padding: 12px 0 24px 0;
-  text-align: center;
-  background-color: var(--trend-900); 
-  color: var(--blue-400);
-}
-
-.header h2 {
-  font-size: var(--font-size-xl);
-  font-weight: 500;
-  margin: 0;
-  letter-spacing: 1px;
-}
-
-main {
-  min-height: 74vh
-}
-
-.footer { 
-  display: block;
-  padding: 24px 0;
-  text-align: center;
-  background-color: var(--trend-900); 
-  color: var(--blue-400);
-}
-
-.footer p {
-  font-size: var(--font-size-base);
-  font-weight: 400;
-  margin: 0;
-  color: #fff;
-  letter-spacing: 1px;
-}
