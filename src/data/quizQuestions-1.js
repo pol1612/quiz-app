@@ -22,7 +22,7 @@ export const quizQuestions_1 = {
       correctAnswer: 'const',
     },
     {
-      question: '1: Which function is used to serialize an object into a JSON string in JavaScript?',
+      question: 'Which function is used to serialize an object into a JSON string in JavaScript?',
       choices: ['stringify()', 'parse()', 'convert()', 'None of the above'],
       correctAnswer: 'stringify()',
     },

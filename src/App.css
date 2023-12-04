@@ -292,6 +292,9 @@ section.home-section h2 {
 }
 
 
+
+
+
 section.home-section .two-cols { display: flex; flex-wrap: wrap }
 
 section.home-section .two-cols > * { flex: 1; }
