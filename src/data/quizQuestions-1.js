@@ -1,55 +1,56 @@
 
 export const quizQuestions_1 = {
-  questions: [
+  
+  questions:[
     {
-      question: 'Which function is used to serialize an object into a JSON string in JavaScript?',
-      choices: ['stringify()', 'parse()', 'convert()', 'None of the above'],
-      correctAnswer: 'stringify()',
+      question: 'What is the main concept in React for building reusable UI elements?',
+      choices: ['Components', 'Functions', 'Modules', 'Classes'],
+      correctAnswer: 'Components',
     },
     {
-      question: 'Which of the following keywords is used to define a variable in JavaScript?',
-      choices: ['var', 'let', 'var and let', 'None of the above'],
-      correctAnswer: 'var and let',
+      question: 'In React, how do you define a functional component?',
+      choices: ['function MyComponent() {}', 'class MyComponent extends React.Component {}', 'const MyComponent = () => {}', 'const MyComponent = function() {}'],
+      correctAnswer: 'const MyComponent = () => {}',
     },
     {
-      question: 'Which of the following methods can be used to display data in some form using JavaScript?',
-      choices: ['document.write()', 'console.log()', 'window.alert', 'All of the above'],
-      correctAnswer: 'All of the above',
+      question: 'What is the purpose of the virtual DOM in React?',
+      choices: ['To improve performance by minimizing direct DOM manipulation', 'To create a backup of the DOM', 'To replace the DOM with a virtual representation', 'To enforce security measures'],
+      correctAnswer: 'To improve performance by minimizing direct DOM manipulation',
     },
     {
-      question: 'How can a datatype be declared to be a constant type?',
-      choices: ['const', 'var', 'let', 'constant'],
-      correctAnswer: 'const',
+      question: 'How can you pass data from a parent component to a child component in React?',
+      choices: ['Using state', 'Using props', 'Using context', 'Using Redux'],
+      correctAnswer: 'Using props',
     },
     {
-      question: 'Which function is used to serialize an object into a JSON string in JavaScript?',
-      choices: ['stringify()', 'parse()', 'convert()', 'None of the above'],
-      correctAnswer: 'stringify()',
+      question: 'What is the significance of the `key` prop when rendering a list of components in React?',
+      choices: ['It identifies each component uniquely in the list', 'It determines the component order in the list', 'It sets the styling for each component', 'It is not necessary for rendering lists'],
+      correctAnswer: 'It identifies each component uniquely in the list',
     },
     {
-      question: 'Which of the following keywords is used to define a variable in JavaScript?',
-      choices: ['var', 'let', 'var and let', 'None of the above'],
-      correctAnswer: 'var and let',
+      question: 'What lifecycle method is called before a component is removed from the DOM in React?',
+      choices: ['componentDidMount()', 'componentWillUnmount()', 'componentWillUpdate()', 'render()'],
+      correctAnswer: 'componentWillUnmount()',
     },
     {
-      question: 'Which of the following methods can be used to display data in some form using JavaScript?',
-      choices: ['document.write()', 'console.log()', 'window.alert', 'All of the above'],
-      correctAnswer: 'All of the above',
+      question: 'In React, can a functional component have local state?',
+      choices: ['Yes, using the useState hook', 'No, only class components can have local state', 'Yes, by declaring a state variable directly', 'No, functional components are stateless'],
+      correctAnswer: 'Yes, using the useState hook',
     },
     {
-      question: 'How can a datatype be declared to be a constant type?',
-      choices: ['const', 'var', 'let', 'constant'],
-      correctAnswer: 'const',
+      question: 'What is the purpose of the `React.Fragment` in React components?',
+      choices: ['To create invisible elements', 'To group multiple elements without adding extra nodes to the DOM', 'To define a component class', 'To add metadata to components'],
+      correctAnswer: 'To group multiple elements without adding extra nodes to the DOM',
     },
     {
-      question: 'Which of the following methods can be used to display data in some form using JavaScript?',
-      choices: ['document.write()', 'console.log()', 'window.alert', 'All of the above'],
-      correctAnswer: 'All of the above',
+      question: 'What is the role of the `shouldComponentUpdate` method in a class component?',
+      choices: ['To determine if the component should re-render', 'To define the initial state of the component', 'To handle component errors', 'To manage component props'],
+      correctAnswer: 'To determine if the component should re-render',
     },
     {
-      question: 'How can a datatype be declared to be a constant type?',
-      choices: ['const', 'var', 'let', 'constant'],
-      correctAnswer: 'const',
+      question: 'In React, what is used to handle user input in forms?',
+      choices: ['FormHandler component', 'useState hook', 'FormSubmitter module', 'onChange event'],
+      correctAnswer: 'onChange event',
     },
-  ],
+  ]
 }

@@ -40,7 +40,8 @@ const Quiz = () => {
     }
 
     else if (quizId === '3') {
-      questions = quizQuestions_3.questions; 
+      questions = quizQuestions_3.questions;
+      console.debug(quizQuestions_3.questions);
     }
   
     else if (quizId === '4') {
